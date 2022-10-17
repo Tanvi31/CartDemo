@@ -22,7 +22,8 @@ const Card = ({ id, name, price, description, img }) => {
 
     return (
         <div className={classes.card}>
-            <img src={img} alt="product-img" />
+            {!img && <p>Loading....</p>}
+            {img && <img src={img} alt="product-img" />}
             <h4 className={classes.heading}>{name}</h4>
             <p>
                 <span>Description:</span> {description}
@@ -33,6 +34,8 @@ const Card = ({ id, name, price, description, img }) => {
                     type="number"
                     id="qty"
                     step="1"
+                    min={1}
+                    max={5}
                     defaultValue="1"
                     ref={qtyRef}
                 />
