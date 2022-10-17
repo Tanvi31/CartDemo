@@ -1,0 +1,18 @@
+.layout {
+    width: 93%;
+    margin: 0 auto;
+}
+
+h3 {
+    color: black;
+}
+
+.container {
+    width: 98%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: auto;
+}

@@ -1,0 +1,18 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 1.6em;
+    text-align: center;
+    padding-bottom: 0.5em;
+    z-index: 100;
+    margin-top: 1.2em;
+    overflow: hidden;
+    background-color: #f7e4ea;
+
+}
+
+p {
+    width: 100%;
+    font-weight: 200;
+}

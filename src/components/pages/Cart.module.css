@@ -1,0 +1,24 @@
+.layout {
+    width: 93%;
+    margin: 0 auto;
+    min-height: 80vh;
+    box-sizing: border-box;
+}
+
+.layout h1 {
+    margin-left: 0.4em;
+}
+
+.total {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5em;
+    margin-top: 1.8em;
+    background-color: #bda6fd;
+    border-radius: 3px;
+}
+
+.total span {
+    font-size: 1.2em;
+    font-weight: 800;
+}
