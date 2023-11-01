@@ -21,7 +21,6 @@ $ npm start
 
 You can see the App in action here.....
 
-https://user-images.githubusercontent.com/51706809/196221168-e63408c0-feba-4298-8b9a-06471589be5a.mov
 
 https://user-images.githubusercontent.com/51706809/196221187-c93c70d5-44ea-4011-8298-a3dfba23e289.mov
 
